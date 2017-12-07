@@ -1,3 +1,5 @@
+"""  Programa que simula una memoria cache de acuerdo a la pagina http://www.ecs.umass.edu/ece/koren/architecture/Cache/frame1.htm """
+
 import numpy as np
 import sys
 import re
