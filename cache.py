@@ -100,6 +100,7 @@ for i in a:
     #cache_seq[cont] += str(i)
     cont+=1
                 
+print "Miguel Mendoza"
 print "\n\n"           
 print "total cache queries ", len(a)
 print "hit",hit
