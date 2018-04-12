@@ -10,10 +10,10 @@ def imprimir(rows, cols):
     print "sets ", rows, "\t blocks ", cols
 
 
-cache_size = int(raw_input("Tamano de cache: (max 16)"))
-sets = int(raw_input("Sets: (max 4)"))
+cache_size = int(raw_input("Tamano de cache: "))
+sets = int(raw_input("Sets: "))
 text = raw_input("arreglo: ")
-rep_pol = raw_input("Reemplazo: LRU o FIFO ")
+rep_pol = raw_input("Reemplazo (LRU o FIFO): ")
 b = re.findall(r'[+-]?[0-9.]+', text)
 
 a = np.array(b)
@@ -100,7 +100,7 @@ for i in a:
     #cache_seq[cont] += str(i)
     cont+=1
                 
-print "Miguel Mendoza"
+#print "Miguel Mendoza"
 print "\n\n"           
 print "total cache queries ", len(a)
 print "hit",hit
